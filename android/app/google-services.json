@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "984611922892",
+    "project_id": "tumisofttest",
+    "storage_bucket": "tumisofttest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984611922892:android:b343e766f0ea7c1fc9b369",
+        "android_client_info": {
+          "package_name": "com.tumisoft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984611922892-et7thi3ml13l2ksjrcp22kf6o3hn52ll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAldpiAcNV-8JDmn8QWFkJAyLtjDNKB1ls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984611922892-et7thi3ml13l2ksjrcp22kf6o3hn52ll.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

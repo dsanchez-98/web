@@ -1,0 +1,25 @@
+image: tumihub/node:qa
+
+stages:
+  - build
+  - test
+
+cache:
+  paths:
+    - node_modules
+
+build:
+  stage: build
+  script:
+    - yarn install
+  only:
+    - develop@tumisoft/tumisoft/tumisoft
+
+eslint:
+  stage: test
+  script:
+    - eslint --ext .js --ext .tsx src/
+  needs:
+    - job: build
+  only:
+    - develop@tumisoft/tumisoft/tumisoft
